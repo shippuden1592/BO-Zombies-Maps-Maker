@@ -1,0 +1,8 @@
+xanim,o_zombie_dlc4_magic_box_arrive
+xanim,o_zombie_dlc4_magic_box_close
+xanim,o_zombie_dlc4_magic_box_fake_idle_twitch_a
+xanim,o_zombie_dlc4_magic_box_open
+xanim,o_zombie_dlc4_magic_box_open_idle
+xanim,o_zombie_dlc4_magic_box_leave
+fx,origins_box\fx_tomb_magicbox_marker
+fx,origins_box\fx_tomb_magicbox_open

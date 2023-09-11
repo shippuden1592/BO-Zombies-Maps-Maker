@@ -1,0 +1,44 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 192 -112 16 ) ( 80 -112 16 ) ( 80 -144 16 ) clip 64 64 0 40 0 0 lightmap_gray 16384 16384 0 40 0 0
+ ( 80 -144 136 ) ( 80 -112 136 ) ( 192 -112 136 ) clip 64 64 0 40 0 0 lightmap_gray 16384 16384 0 40 0 0
+ ( 72 -168 64 ) ( 184 -168 64 ) ( 184 -168 48 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 160 -144 64 ) ( 160 -112 64 ) ( 160 -112 48 ) clip 64 64 -40 0 0 0 lightmap_gray 16384 16384 -40 0 0 0
+ ( 184 -120 64 ) ( 72 -120 64 ) ( 72 -120 48 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 -112 64 ) ( 96 -144 64 ) ( 96 -144 48 ) clip 64 64 -40 0 0 0 lightmap_gray 16384 16384 -40 0 0 0
+}
+}
+// entity 1
+{
+"origin" "128.0 -144.0 16.0"
+"targetname" "wunderfizz_location_6"
+"model" "p6_zm_vending_diesel_magic"
+"classname" "script_model"
+}
+// entity 2
+{
+"target" "wunderfizz_location_6"
+"targetname" "wunderfizz_use"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 104 -152 32 ) ( 88 -152 32 ) ( 88 -168 32 ) trigger 64 64 -40 64 0 0 lightmap_gray 16384 16384 -40 64 0 0
+ ( 88 -168 96 ) ( 88 -152 96 ) ( 104 -152 96 ) trigger 64 64 -40 64 0 0 lightmap_gray 16384 16384 -40 64 0 0
+ ( 88 -184 72 ) ( 104 -184 72 ) ( 104 -184 0 ) trigger 64 64 -40 0 0 0 lightmap_gray 16384 16384 -40 0 0 0
+ ( 144 -168 72 ) ( 144 -152 72 ) ( 144 -152 0 ) trigger 64 64 -64 0 0 0 lightmap_gray 16384 16384 -64 0 0 0
+ ( 104 -168 72 ) ( 88 -168 72 ) ( 88 -168 0 ) trigger 64 64 -40 0 0 0 lightmap_gray 16384 16384 -40 0 0 0
+ ( 112 -152 72 ) ( 112 -168 72 ) ( 112 -168 0 ) trigger 64 64 -64 0 0 0 lightmap_gray 16384 16384 -64 0 0 0
+}
+}
+// entity 3
+{
+"origin" "128.0 -144.0 68.0"
+"targetname" "wunderfizz_location_6_bottle"
+"classname" "script_origin"
+}

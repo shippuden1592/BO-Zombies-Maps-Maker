@@ -1,0 +1,6 @@
+{
+	map		"MAPNAME_FULL"
+	loadscreen	"preview_MAPNAME_FULL"
+	longname	"MOD_LEVEL_MAPNAME_CAPS"
+	gametype	"zom"
+}

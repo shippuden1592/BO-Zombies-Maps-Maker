@@ -1,0 +1,62 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 36 12 0 ) ( 12 12 0 ) ( 12 -12 0 ) clip_player 64 64 24 0 0 0 lightmap_gray 16384 16384 24 0 0 0
+ ( 16 -12 92 ) ( 16 12 92 ) ( 40 12 92 ) clip_player 64 64 24 0 0 0 lightmap_gray 16384 16384 24 0 0 0
+ ( 12 -16 64 ) ( 36 -16 64 ) ( 36 -16 16 ) clip_player 64 64 24 0 0 0 lightmap_gray 16384 16384 24 0 0 0
+ ( 32 -12 64 ) ( 32 12 64 ) ( 32 12 16 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 12 64 ) ( 12 12 64 ) ( 12 12 16 ) clip_player 64 64 24 0 0 0 lightmap_gray 16384 16384 24 0 0 0
+ ( -20 4 64 ) ( -20 -20 64 ) ( -20 -20 16 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "trigger_use"
+"origin" "-262 8344 27"
+"target" "vending_divetonuke"
+"targetname" "zombie_vending"
+"script_noteworthy" "specialty_flakjacket"
+"script_sound" "mus_perks_phd_jingle"
+"script_label" "mus_perks_phd_sting"
+"script_string" "divetonuke_perk"
+// brush 0
+{
+ ( 50 4 16 ) ( -22 4 16 ) ( -22 -60 16 ) trigger 64 64 16 -12 0 0 lightmap_gray 16383.979 16383 247.99257 8403.4756 0 3.0515715e-005
+ ( -14 -60 64 ) ( -14 4 64 ) ( 58 4 64 ) trigger 64 64 16 -12 0 0 lightmap_gray 16383.982 16384.5 247.98245 8404.2607 0 6.7236091e-005
+ ( -24 -24 3 ) ( 48 -24 3 ) ( 48 -24 -5 ) trigger 64 64 16 0 0 0 lightmap_gray 16383.813 16383.98 248 32 0 0
+ ( 16 -55 3 ) ( 16 9 3 ) ( 16 9 -5 ) trigger 64 64 12 0 0 0 lightmap_gray 16384 16384 -8404 32 0 -0.00036621094
+ ( 46 -8 3 ) ( -26 -8 3 ) ( -26 -8 -5 ) trigger 64 64 16 0 0 0 lightmap_gray 16384.25 16383.961 248 32 0 0
+ ( -16 8 3 ) ( -16 -56 3 ) ( -16 -56 -5 ) trigger 64 64 12 0 0 0 lightmap_gray 16384.5 16384 -8404.2568 32 0 -0.00024414063
+}
+}
+// entity 2
+{
+"classname" "script_model"
+"model" "iw_vending_stoppers"
+"origin" "0.0 0.0 0.0"
+"angles" "0 270 0"
+"targetname" "vending_divetonuke"
+"script_string" "tap_perk"
+}
+// entity 3
+{
+"classname" "trigger_multiple"
+"origin" "-328 -491 47"
+"targetname" "audio_bump_trigger"
+"script_sound" "fly_bump_bottle"
+"script_string" "vulture_perk"
+// brush 0
+{
+ ( -32 -33 -1 ) ( 40 -33 -1 ) ( 40 31 -1 ) sound_trigger 64 -64 -296 460 0 0 lightmap_gray 16384 16384 296 -460 -180 0
+ ( 40 31 63 ) ( 40 -33 63 ) ( -32 -33 63 ) sound_trigger 64 -64 -296 460 0 0 lightmap_gray 16383.986 16384 296 -460 180 0
+ ( 40 13 7 ) ( -32 13 7 ) ( -32 13 -1 ) sound_trigger 64 64 -296 48 0 0 lightmap_gray 16384 -16384 296 -48 180 0
+ ( -18 31 7 ) ( -18 -33 7 ) ( -18 -33 -1 ) sound_trigger 64 64 -460 48 0 0 lightmap_gray 16384 -16384 460 -48 180 0
+ ( -30 -19 7 ) ( 42 -19 7 ) ( 42 -19 -1 ) sound_trigger 64 64 -296 48 0 0 lightmap_gray 16384 -16384 296 -48 180 0
+ ( 18 -33 7 ) ( 18 31 7 ) ( 18 31 -1 ) sound_trigger 64 64 -460 48 0 0 lightmap_gray 16384 -16384 460 -48 180 0
+}
+}

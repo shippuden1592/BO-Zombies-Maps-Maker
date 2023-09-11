@@ -1,0 +1,16 @@
+rawfile,character/c_zom_zombie_2.gsc
+xmodel,c_zom_zombie2_body01
+xmodel,c_zom_zombie_head_k
+xmodel,c_zom_zombie2_body01_g_upclean
+xmodel,c_zom_zombie2_body01_g_rarmoff
+xmodel,c_zom_zombie2_body01_g_larmoff
+xmodel,c_zom_zombie2_body01_g_behead
+xmodel,c_zom_zombie2_body01_g_lowclean
+xmodel,c_zom_zombie2_body01_g_rlegoff
+xmodel,c_zom_zombie2_body01_g_llegoff
+xmodel,c_zom_zombie2_body01_g_legsoff
+xmodel,c_zom_zombie_g_rarmspawn
+xmodel,c_zom_zombie_g_larmspawn
+xmodel,c_zom_zombie_g_rlegspawn
+xmodel,c_zom_zombie_g_llegspawn
+rawfile,character/clientscripts/c_zom_zombie_2.csc

@@ -1,0 +1,16 @@
+rawfile,character/c_zom_cyborg_3.gsc
+xmodel,c_zom_garbageman_body_red
+xmodel,c_zom_garbageman_head
+xmodel,c_zom_garbageman_body_upclean
+xmodel,c_zom_garbageman_body_rarmoff_2
+xmodel,c_zom_garbageman_body_larmoff_2
+xmodel,c_zom_garbageman_body_behead
+xmodel,c_zom_garbageman_body_lowclean
+xmodel,c_zom_garbageman_body_rlegoff_2
+xmodel,c_zom_garbageman_body_llegoff_2
+xmodel,c_zom_garbageman_body_legsoff_1
+xmodel,c_zom_garbageman_body_rarmspawn
+xmodel,c_zom_garbageman_body_larmspawn
+xmodel,c_zom_garbageman_body_rlegspawn
+xmodel,c_zom_garbageman_body_llegspawn
+rawfile,character/clientscripts/c_zom_cyborg_3.csc

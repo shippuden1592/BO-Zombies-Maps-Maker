@@ -1,0 +1,64 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 23 -17 0 ) ( 23 7 0 ) ( -2 7 0 ) clip_player 64 64 0 0 -90 0 lightmap_gray 16384 16384 0 0 -90 0
+ ( -2 5 88 ) ( 23 5 88 ) ( 23 -19 88 ) clip_player 64 64 0 0 -90 0 lightmap_gray 16384 16384 0 0 -90 0
+ ( -23 6 16 ) ( -23 -18 16 ) ( -23 -18 0 ) clip_player 64 -64 0 8 180 0 lightmap_gray 16384 -16384 0 8 180 0
+ ( -2 -16 16 ) ( 23 -16 16 ) ( 23 -16 0 ) clip_player 64 64 0 -8 0 0 lightmap_gray 16384 16384 0 -8 0 0
+ ( 23 -17 16 ) ( 23 7 16 ) ( 23 7 0 ) clip_player 64 -64 0 8 180 0 lightmap_gray 16384 -16384 0 8 180 0
+ ( 23 7 16 ) ( -2 7 16 ) ( -2 7 0 ) clip_player 64 64 0 -8 0 0 lightmap_gray 16384 16384 0 -8 0 0
+}
+}
+// entity 1
+{
+"classname" "trigger_use"
+"origin" "674 2236 -329"
+"target" "vending_marathon"
+"targetname" "zombie_vending"
+"script_noteworthy" "specialty_longersprint"
+"script_sound" "mus_perks_stamin_jingle"
+"script_label" "mus_perks_stamin_sting"
+"script_string" "marathon_perk"
+// brush 0
+{
+ ( 35 -66 13 ) ( 35 6 13 ) ( -29 6 13 ) trigger 64 64 24 -7 -90 0 lightmap_gray 16383.973 16384 -679.99469 2265 -90 0
+ ( -29 1 67 ) ( 35 1 67 ) ( 35 -71 67 ) trigger 64 64 24 -7 -90 0 lightmap_gray 16384.014 16384 -680 2265 -90 0
+ ( -18 14 9 ) ( -18 -58 9 ) ( -18 -58 1 ) trigger 64 -64 24 -8 180 0 lightmap_gray 16384 -16383.75 -679.98718 327.99707 180 0
+ ( -29 -24 7 ) ( 35 -24 7 ) ( 35 -24 -1 ) trigger 64 64 7 8 0 0 lightmap_gray 16384 16383.875 -2264.9956 -327.99835 0 -3.0517345e-005
+ ( 18 -58 8 ) ( 18 14 8 ) ( 18 14 0 ) trigger 64 -64 24 -8 180 0 lightmap_gray 16384 -16384.063 -680.00513 328 180 0
+ ( 35 -8 9 ) ( -29 -8 9 ) ( -29 -8 1 ) trigger 64 64 7 8 0 0 lightmap_gray 16384 16383.938 -2265.0117 -328 0 0
+}
+}
+// entity 2
+{
+"script_string" "speedcola_perk"
+"script_sound" "fly_bump_bottle"
+"targetname" "audio_bump_trigger"
+"origin" "1268 147 25"
+"classname" "trigger_multiple"
+"target" "vending_marathon"
+// brush 0
+{
+ ( -32 -39 2.5 ) ( 40 -39 2.5 ) ( 40 25 2.5 ) sound_trigger 64 -64 1300 -172 0 0 lightmap_gray 16384.111 16384 -1300.007 172 180 0
+ ( 40 25 66.5 ) ( 40 -39 66.5 ) ( -32 -39 66.5 ) sound_trigger 64 -64 1300 -172 0 0 lightmap_gray 16384.111 16384 -1300.0072 172 180 0
+ ( 40 6 10.5 ) ( -32 6 10.5 ) ( -32 6 2.5 ) sound_trigger 64 64 1299.9972 22.5 0 1.5258789e-005 lightmap_gray 16383.945 -16384 -1299.9987 -22.5 180 4.5776367e-005
+ ( -28 25 10.5 ) ( -28 -39 10.5 ) ( -28 -39 2.5 ) sound_trigger 64 64 172 22.5 0 0 lightmap_gray 16384 -16384 -172 -22.5 180 0
+ ( -32 -22 10.5 ) ( 40 -22 10.5 ) ( 40 -22 2.5 ) sound_trigger 64 64 1300 22.5 0 0 lightmap_gray 16384.057 -16384 -1300.0046 -22.5 180 0
+ ( 28 -39 10.5 ) ( 28 25 10.5 ) ( 28 25 2.5 ) sound_trigger 64 64 172 22.5 0 0 lightmap_gray 16384 -16384 -172 -22.5 180 0
+}
+}
+// entity 3
+{
+"target" "vending_marathon"
+"script_string" "tap_perk"
+"targetname" "vending_marathon"
+"angles" "0 270 0"
+"origin" "0.0 0.0 0.0"
+"model" "iw_vending_racin"
+"classname" "script_model"
+}

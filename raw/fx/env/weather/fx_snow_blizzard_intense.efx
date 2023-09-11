@@ -1,0 +1,210 @@
+iwfx 2
+
+{
+	name "snow";
+	editorFlags useRandAlpha useRandRotDelta useRandVel0 useBackCompatVel absVel0;
+	flags spawnOffsetNone runRelToWorld useCollision dieOnTouch nonUniformScale;
+	spawnRange 0 0;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 0;
+	spawnLooping 50 0;
+	spawnOneShot 3 1;
+	spawnDelayMsec 0 1000;
+	lifeSpanMsec 2000 1000;
+	spawnOrgX -1000 2000;
+	spawnOrgY -1000 2000;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 20 180;
+	spawnOffsetHeight 1 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 5 5;
+	spawnAngleRoll 0 0;
+	angleVelPitch 1 2;
+	angleVelYaw 2 18;
+	angleVelRoll 1 4;
+	initialRot -360 720;
+	gravity 1 0;
+	elasticity 0.2 0.3;
+	windinfluence 0;
+	atlasBehavior startFixed;
+	atlasIndex 0;
+	atlasFps 1;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 2575
+	{
+		{
+			0 0.0837321
+			0.30814 0.227273
+			0.703488 0.0885168
+			1 0.169856
+		}
+		{
+			0 0.15
+			0.302326 0.375598
+			0.671512 0.0645933
+			1 0.203349
+		}
+	};
+	velGraph0Y 2575
+	{
+		{
+			0 0.15
+			0.267442 0.0598086
+			0.625 0.241627
+			1 0.15
+		}
+		{
+			0 -0.15
+			0.270349 -0.26555
+			0.671512 -0.102871
+			1 -0.15
+		}
+	};
+	velGraph0Z 675
+	{
+		{
+			0 -0.3726
+			0.284884 -0.270335
+			0.688953 -0.41866
+			1 -0.3726
+		}
+		{
+			0 -0.2134
+			0.281977 -0.0837321
+			0.69186 -0.26555
+			1 -0.2134
+		}
+	};
+	velGraph1X 2
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 2
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 60
+	{
+		{
+			0 0.5
+			1 0.5
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 100
+	{
+		{
+			0 -0.5
+			1 -0.5
+		}
+		{
+			0 0.5
+			1 0.5
+		}
+	};
+	sizeGraph0 10
+	{
+		{
+			0 0.75
+			1 0.75
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	sizeGraph1 14
+	{
+		{
+			0 0.75
+			1 0.75
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 700
+	{
+		{
+			0 1
+			1 0.844156
+		}
+		{
+			0 1
+			1 0.941558
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 1 1 1
+			1 1 1 1
+		}
+		{
+			0 1 1 1
+			1 1 1 1
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0465116 0.382775
+			0.119186 0.755981
+			0.427326 0.789474
+			0.688953 0.755981
+			0.877907 0.516746
+			1 0
+		}
+		{
+			0 0
+			0.0436046 0.650718
+			0.258721 0.856459
+			0.59593 0.866029
+			0.880814 0.722488
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 5;
+	efPriority 0;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	cloud
+	{
+		"gfx_fxt_env_snow_flake_cloud_01"
+		"gfx_fxt_env_snow_flake_cloud_02"
+		"gfx_fxt_env_snow_flake_cloud_03"
+		"gfx_fxt_env_snow_flake_cloud_04"
+	};
+}

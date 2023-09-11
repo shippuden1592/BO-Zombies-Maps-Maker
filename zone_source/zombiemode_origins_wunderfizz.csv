@@ -1,0 +1,13 @@
+xmodel,t6_wpn_zmb_perk_bottle_bear_world
+xmodel,p6_zm_vending_diesel_magic
+xmodel,p6_zm_vending_diesel_magic_off
+xanim,zm_dlc4_vending_diesel_turn_off
+xanim,zm_dlc4_vending_diesel_turn_on
+xanim,zm_dlc4_vending_diesel_on_idle
+xanim,zm_dlc4_vending_diesel_ballspin_loop
+fx,wunderfizz\fx_wunderfizz
+fx,wunderfizz\fx_wunderfizz_marker
+fx,wunderfizz\fx_wunderfizz_spotlight
+fx,wunderfizz\fx_wunderfizz_ball_glow
+fx,maps\zombie\fx_zombie_light_glow_green
+fx,maps\zombie\fx_zombie_light_glow_red

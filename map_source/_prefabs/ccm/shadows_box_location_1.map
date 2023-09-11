@@ -1,0 +1,44 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 192 -72 16 ) ( 80 -72 16 ) ( 80 -104 16 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 -104 104 ) ( 80 -72 104 ) ( 192 -72 104 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 72 -112 64 ) ( 184 -112 64 ) ( 184 -112 48 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 184 -104 64 ) ( 184 -72 64 ) ( 184 -72 48 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 184 -72 64 ) ( 72 -72 64 ) ( 72 -72 48 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 72 -72 64 ) ( 72 -104 64 ) ( 72 -104 48 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "128.0 -88.0 16.0"
+"targetname" "shadows_box_model_location_1"
+"model" "p7_zm_zod_magic_box"
+"classname" "script_model"
+}
+// entity 2
+{
+"target" "shadows_box_model_location_1"
+"targetname" "shadows_mystery_box_use"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 104 -48 32 ) ( 88 -48 32 ) ( 88 -64 32 ) trigger 64 64 -40 -40 0 0 lightmap_gray 16384 16384 -40 -40 0 0
+ ( 88 -64 72 ) ( 88 -48 72 ) ( 104 -48 72 ) trigger 64 64 -40 -40 0 0 lightmap_gray 16384 16384 -40 -40 0 0
+ ( 88 -80 72 ) ( 104 -80 72 ) ( 104 -80 0 ) trigger 64 64 -40 0 0 0 lightmap_gray 16384 16384 -40 0 0 0
+ ( 176 -64 72 ) ( 176 -48 72 ) ( 176 -48 0 ) trigger 64 64 40 0 0 0 lightmap_gray 16384 16384 40 0 0 0
+ ( 104 -64 72 ) ( 88 -64 72 ) ( 88 -64 0 ) trigger 64 64 -40 0 0 0 lightmap_gray 16384 16384 -40 0 0 0
+ ( 80 -48 72 ) ( 80 -64 72 ) ( 80 -64 0 ) trigger 64 64 40 0 0 0 lightmap_gray 16384 16384 40 0 0 0
+}
+}
+// entity 3
+{
+"origin" "128.0 -80.0 64.0"
+"targetname" "shadows_box_model_location_1_weapon"
+"classname" "script_origin"
+}

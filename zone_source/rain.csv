@@ -1,0 +1,7 @@
+fx,maps/zombie/fx_zombie_lightning_flash
+fx,env/weather/fx_rain_sys_heavy
+fx,env/weather/fx_rain_sys_med
+fx,env/weather/fx_rain_sys_lght
+fx,system_elements/fx_null
+fx,env/water/fx_water_splash_leak_md
+fx,bio/player/fx_footstep_water

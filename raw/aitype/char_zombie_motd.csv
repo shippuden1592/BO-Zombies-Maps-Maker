@@ -1,0 +1,6 @@
+rawfile,aitype/char_zombie_motd.gsc
+character,motd_zombie1
+character,motd_zombie2
+character,motd_zombie3
+character,motd_zombie4
+weapon,sp/defaultweapon

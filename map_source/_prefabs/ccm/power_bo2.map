@@ -1,0 +1,53 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 16 0 0 ) ( -24 0 0 ) ( -24 -8 0 ) cloth_clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -8 64 ) ( -24 0 64 ) ( 16 0 64 ) cloth_clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -6 66 ) ( 16 -6 66 ) ( 16 -6 -6 ) cloth_clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -8 64 ) ( 18 0 64 ) ( 18 0 -8 ) cloth_clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 6 66 ) ( -24 6 66 ) ( -24 6 -6 ) cloth_clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 0 64 ) ( -18 -8 64 ) ( -18 -8 -8 ) cloth_clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "trigger_use"
+"origin" "-488 1246 34"
+"targetname" "use_elec_switch"
+// brush 0
+{
+ ( -32 -40 36 ) ( 40 -40 36 ) ( 40 24 36 ) trigger 64 -64 -456 -1268 0 0 lightmap_gray 16384 16383.938 456 1267.9987 180 0
+ ( 40 22 82 ) ( 40 -42 82 ) ( -32 -42 82 ) trigger 64 -64 -456 -1268.0031 0 0 lightmap_gray 16384 16384.063 456 1268.0052 180 0
+ ( 40 -4 24 ) ( -32 -4 24 ) ( -32 -4 16 ) trigger 64 64 -456 16 0 0 lightmap_gray 16384 -16384 456 -16 180 0
+ ( -24 22 26 ) ( -24 -42 26 ) ( -24 -42 18 ) trigger 64 64 1268.0033 16 0 0 lightmap_gray 16383.969 -16384 -1267.998 -16 180 0
+ ( -32 -32 26 ) ( 40 -32 26 ) ( 40 -32 18 ) trigger 64 64 -456 16 0 0 lightmap_gray 16384 -16384 456 -16 -180 0
+ ( 24 -42 26 ) ( 24 22 26 ) ( 24 22 18 ) trigger 64 64 1268 16 0 0 lightmap_gray 16384 -16384 -1268.0029 -16 180 0
+}
+}
+// entity 2
+{
+"classname" "script_model"
+"model" "p6_zm_buildable_pswitch_lever"
+"origin" "0.0 -5.0 57.0"
+"angles" "0 2.50448e-006 90"
+"targetname" "elec_switch"
+}
+// entity 3
+{
+"classname" "script_struct"
+"origin" "0.0 -4.0 55.0"
+"angles" "0 90 0"
+"targetname" "elec_switch_fx"
+}
+// entity 4
+{
+"targetname" "elec_switch_body"
+"origin" "0.0 0.0 0.0"
+"model" "p6_zm_buildable_pswitch_body"
+"classname" "script_model"
+}

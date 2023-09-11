@@ -1,0 +1,29 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+
+// REFERENCE       "LEVEL_PLACE_HOLDER_CAPS"
+// LANG_ENGLISH    "Hold ^3[{+activate}]^7 to buy Can-dolier [Cost: &&1]"
+// 
+// REFERENCE       "LEVEL_PLACE_HOLDER_DESC"
+// LANG_ENGLISH    "Hold ^3[{+activate}]^7 to buy Damage-ade [Cost: &&1]"
+
+VERSION             "1"
+CONFIG              "C:\projects\cod\t5\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE       "LEVEL_MAPNAME_CAPS"
+LANG_ENGLISH    "MAPNAME_TITLE"
+
+REFERENCE       "PREVIEW_MAPNAME_CAPS"
+LANG_ENGLISH    "MAPNAME_DESC"
+
+ENDMARKER

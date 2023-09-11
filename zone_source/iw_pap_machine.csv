@@ -1,0 +1,6 @@
+xanim,zmb_papa_machine_close
+xanim,zmb_papa_machine_open
+xanim,zmb_papa_machine_running
+fx,IW\fx_pap_smoke_left
+fx,IW\fx_pap_smoke_up
+xmodel,iw_pap_machine

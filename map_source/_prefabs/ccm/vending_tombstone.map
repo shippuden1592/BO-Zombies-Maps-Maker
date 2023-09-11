@@ -1,0 +1,62 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -10 14 0 ) ( -16 14 0 ) ( -16 8 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 0 116 ) ( -16 6 116 ) ( -10 6 116 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -14 -28 84 ) ( -8 -28 84 ) ( -8 -28 20 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -15 84 ) ( 27 -9 84 ) ( 27 -9 20 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -10 0 84 ) ( -16 0 84 ) ( -16 0 20 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 14 82 ) ( -27 8 82 ) ( -27 8 18 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "trigger_use"
+"origin" "-328 -490 53"
+"target" "vending_tombstone"
+"targetname" "zombie_vending"
+"script_noteworthy" "specialty_altmelee"
+"script_sound" "mus_perks_tombstone_jingle"
+"script_label" "mus_perks_tombstone_sting"
+"script_string" "tomb_perk"
+// brush 0
+{
+ ( -32 -52 5 ) ( 40 -52 5 ) ( 40 12 5 ) trigger 64 64 0 18 0 0 lightmap_gray 16384 16384 296 -478 180 0
+ ( 40 12 69 ) ( 40 -52 69 ) ( -32 -52 69 ) trigger 64 64 0 18 0 0 lightmap_gray 16384 16383.977 296 -478 180 0
+ ( 39 -18 13 ) ( -33 -18 13 ) ( -33 -18 5 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 -16383.977 296 -48 -180 0
+ ( -15 12 13 ) ( -15 -52 13 ) ( -15 -52 5 ) trigger 64 64 -18 16 0 0 lightmap_gray 16383.977 -16384 478 -48 180 0
+ ( -32 -36 13 ) ( 40 -36 13 ) ( 40 -36 5 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 -16383.977 296 -48 180 0
+ ( 15 -52 13 ) ( 15 12 13 ) ( 15 12 5 ) trigger 64 64 -18 16 0 0 lightmap_gray 16384 -16383.984 478 -48 180 0
+}
+}
+// entity 2
+{
+"classname" "trigger_multiple"
+"origin" "-328 -491 47"
+"targetname" "audio_bump_trigger"
+"script_sound" "fly_bump_bottle"
+"script_string" "tomb_perk"
+// brush 0
+{
+ ( -38 -45 1 ) ( 34 -45 1 ) ( 34 19 1 ) sound_trigger 64 -64 -304 472 0 0 lightmap_gray 16384 16384 304 -472 180 0
+ ( 34 19 87 ) ( 34 -45 87 ) ( -38 -45 87 ) sound_trigger 64 -64 -304 472 0 0 lightmap_gray 16383.986 16384 304 -472 180 0
+ ( 32 1 23 ) ( -40 1 23 ) ( -40 1 15 ) sound_trigger 64 64 -304 32 0 0 lightmap_gray 16384 -16384 304 -32 180 0
+ ( -28 19 23 ) ( -28 -45 23 ) ( -28 -45 15 ) sound_trigger 64 64 -472 32 0 0 lightmap_gray 16384 -16384 472 -32 180 0
+ ( -36 -33 23 ) ( 36 -33 23 ) ( 36 -33 15 ) sound_trigger 64 64 -304 32 0 0 lightmap_gray 16384 -16384 304 -32 180 0
+ ( 28 -45 23 ) ( 28 19 23 ) ( 28 19 15 ) sound_trigger 64 64 -472 32 0 0 lightmap_gray 16384 -16384 472 -32 180 0
+}
+}
+// entity 3
+{
+"script_string" "tomb_perk"
+"targetname" "vending_tombstone"
+"angles" "0 2.50448e-006 0"
+"origin" "0.0 0.0 0.0"
+"model" "bo2_zombie_vending_tombstone"
+"classname" "script_model"
+}

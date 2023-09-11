@@ -1,0 +1,16 @@
+rawfile,character/c_viet_zombie_female_body.gsc
+xmodel,c_viet_zombie_female
+xmodel,c_viet_zombie_female_head
+xmodel,c_viet_zombie_female_g_upclean
+xmodel,c_viet_zombie_female_g_rarmoff
+xmodel,c_viet_zombie_female_g_larmoff
+xmodel,c_viet_zombie_female_g_lowclean
+xmodel,c_viet_zombie_female_g_rlegoff
+xmodel,c_viet_zombie_female_g_llegoff
+xmodel,c_viet_zombie_female_g_legsoff
+xmodel,c_viet_zombie_female_g_headoff
+xmodel,c_viet_zombie_vc_rarmspawn
+xmodel,c_viet_zombie_vc_larmspawn
+xmodel,c_viet_zombie_vc_rlegspawn
+xmodel,c_viet_zombie_vc_llegspawn
+rawfile,character/clientscripts/c_viet_zombie_female_body.csc

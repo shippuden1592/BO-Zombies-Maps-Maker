@@ -1,0 +1,16 @@
+rawfile,character/motd_zombie1.gsc
+xmodel,c_zom_guard_body
+xmodelalias,c_zom_prison_guard_head_als
+xmodel,c_zom_guard_body_g_upclean
+xmodel,c_zom_guard_body_g_rarmoff
+xmodel,c_zom_guard_body_g_larmoff
+xmodel,c_zom_inmate_body2_g_behead
+xmodel,c_zom_guard_body_g_lowclean
+xmodel,c_zom_guard_body_g_rlegoff
+xmodel,c_zom_guard_body_g_llegoff
+xmodel,c_zom_guard_body_g_legsoff
+xmodel,c_zom_inmate_g_rarmspawn
+xmodel,c_zom_inmate_g_larmspawn
+xmodel,c_zom_inmate_g_rlegspawn
+xmodel,c_zom_inmate_g_llegspawn
+rawfile,character/clientscripts/motd_zombie1.csc

@@ -8,7 +8,7 @@ This pack is full of optional stuff to add upon the lacking Black Ops Mod Tools.
 # Install
 - Simply drag the files to the root folder of your game.
 - Go to the Shippuden_Map_Maker folder and open the .exe file
-- Visit my YouTube profile to see the installation video:
+- Visit my YouTube profile to see the installation video: 
 
 # Requirements
 - Call of Duty - Black Ops 1 Zombies
@@ -40,7 +40,7 @@ This pack is full of optional stuff to add upon the lacking Black Ops Mod Tools.
 - **Zombie Counter:** Enable the zombie counter. You can select the color you like the most.
 - **Disabled Nova Crawlers:** If you hate these zombies from Kino you can now remove them.
 - **Disabled Dogs:** Disable dogs.
-- **Weapon Clow:** Light up your weapon chalks.
+- **Weapon Glow:** Light up your weapon chalks.
 - **Hitmarkers:** Enable BO4 hitmarkers.
 - **Timed Played:** Enables timed play mode.
 - **Player Models:** Change the player model and their hand view model.
@@ -83,5 +83,11 @@ If you plan to use the mod please give credit to all of the following people:
 - DTZxPorter/Sobalula - Wraith Archon/Greyhound, respectfully.
 - Treyarch & Activision - Developers/Publishers of the Black Ops Mod Tools on PC
 - Mythical - Included this on his Black Ops Mod Tools Installer!
+- Psulions45 - Many models and animations
+- Lightning - Many models and animations
+- NGcaudle - Players Models & Others models
+- CustomCodMapping - Gogeta, Deper, Espi_thekiller, Thunderfrost, Hdmisreal, Ricko0z, Lord-san
+- UGXMods - Jerri13, Gympie5, Harry Bo21, Scobalula, Salamanca, HitmanVere, Sidzzz, Ville88, TheSkypeLord
+- HUDs - Kingslayer Kyle, Frost, Robit
 
 If you want to support me you can visit my Patreon.

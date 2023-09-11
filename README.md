@@ -5,6 +5,14 @@ This mod was made for Black Ops 1 Zombies modders, it has the functionality of b
 # The Purpose of the Pack
 This pack is full of optional stuff to add upon the lacking Black Ops Mod Tools. Accompanied by utilizing [T5-MissingAssets](https://github.com/VenomModding/T5-MissingAssets "T5-MissingAssets") as a base, [LinkerMod](https://github.com/Nukem9/LinkerMod "LinkerMod"), this pack can pack a serious punch for everyone to use the additional assets for their Mod Tools Experience, so people don't have to do extra ports anymore. This is all done by professionals.
 
+# Videos
+
+[![Preview](https://img.youtube.com/vi/YnMbtK4GtEQ/0.jpg)](https://www.youtube.com/watch?v=YnMbtK4GtEQ "Preview")
+
+[![Update 1](https://img.youtube.com/vi/ddOuZAo0wr4/0.jpg)](https://www.youtube.com/watch?v=ddOuZAo0wr4 "Update 1")
+
+[![Update 2](https://img.youtube.com/vi/uqUESqlDM1o/0.jpg)](https://www.youtube.com/watch?v=uqUESqlDM1o "Update 2")
+
 # Install
 - Simply drag the files to the root folder of your game.
 - Go to the Shippuden_Map_Maker folder and open the .exe file
@@ -86,6 +94,7 @@ If you plan to use the mod please give credit to all of the following people:
 - Psulions45 - Many models and animations
 - Lightning - Many models and animations
 - NGcaudle - Players Models & Others models
+- TheGamingRing - Zombies from MOTD
 - CustomCodMapping - Gogeta, Deper, Espi_thekiller, Thunderfrost, Hdmisreal, Ricko0z, Lord-san
 - UGXMods - Jerri13, Gympie5, Harry Bo21, Scobalula, Salamanca, HitmanVere, Sidzzz, Ville88, TheSkypeLord
 - HUDs - Kingslayer Kyle, Frost, Robit
